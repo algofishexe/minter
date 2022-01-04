@@ -1,0 +1,17 @@
+{
+  "name": "minter",
+  "version": "1.0.0",
+  "description": "mint algorand NFTs using node.js",
+  "main": "server.js",
+  "type": "module",
+  "author": "fish.exe",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^1.13.0-beta.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "nft.storage": "^5.2.0",
+    "path": "^0.12.7"
+  }
+}
