@@ -9,7 +9,7 @@ You will need node (https://nodejs.org/en/). After cloning the repo, `npm instal
 
  - Make an https://nft.storage/ account and put the key in `.env` as the `NFTSTORAGE_KEY`.
  - Make a https://www.purestake.com/ account and put the key in `.env` as the `PURESTAKE_KEY`
- - Make a testnet account using your wallet of choice, [fund it](https://bank.testnet.algorand.network/)  and put the mnemonic in the `.env` as `MNEMONIC`. NOTE: you can also use a real account on mainnet by changing `ALGO_SERVER` in `server.js`.
+ - Make a testnet account using your wallet of choice, [fund it](https://bank.testnet.algorand.network/)  and put the mnemonic in the `.env` as `MNEMONIC`. NOTE: you can also use a real account on mainnet by changing `ALGO_SERVER` in `server.js`. (the account given is a fresh testnet account that I funded, feel free to use it if it still has funds)
 
 ### Variables
 
@@ -39,3 +39,7 @@ Edit `properties.csv` to contain the appropriate data for your project. Each row
 ## Running
 
 To run, simply execute `node server.js`. If all goes well, you should see some messages being logged relating to your transactions.
+
+## Tip
+
+This tool is completely free to use, but if you want to send me an NFT or a few ALGO in thanks you can hit me up on Twitter (https://twitter.com/AlgofishExe) or send to `FISHEXEW6C4H6PRREM4OLBQ3EOMI2ETUBM2C3UCNHSV33LA5RTM6A577T4` :)
